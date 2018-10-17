@@ -63,6 +63,9 @@ for i in 1..<10 {
 }
 
 
+for i in 1...10 {
+    print(i)
+}
 
 
 //: ### while loop
@@ -89,7 +92,7 @@ let newArray = [1,2,3,4,5,6,7,8,9,10]
 for element in newArray where element % 2 == 0 {
     print(element)
 }
-
+	
 
 
 //: ## Let's call it a wrap!

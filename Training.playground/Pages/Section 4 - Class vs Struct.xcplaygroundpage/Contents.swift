@@ -2,7 +2,7 @@
 //: # Class vs Struct
 //: ## Class
 //: ### an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods) - Wikipedia
-class Vehicle {
+class Vehicle {	
     var numberOfTires: Int?
     var passengerCapacity: Int?
     var name: String?

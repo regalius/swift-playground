@@ -9,5 +9,13 @@ enum httpCodes: Int {
     // and so on
 }
 
+let responseCode = 200
+let enumerated = httpCodes(rawValue: responseCode)
+
+if( enumerated == .ok ) {
+    print("OK")
+} else {
+  print("others")
+}
 
 //: [Next](@next)
